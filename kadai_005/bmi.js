@@ -1,11 +1,11 @@
 // 体重
-weight = 68;
+let weight = 68;
 
 // 身長
-height = 1.7;
+let height = 1.7;
 
 // BMI
-bmi = weight / (height * height);
+let bmi = weight / (height * height);
 
 // コンソール出力
 console.log(bmi);
