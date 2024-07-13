@@ -3,7 +3,7 @@ const date = new Date();
 
 // 年月日を取得
 const [month, day, year] = [
-    date.getMonth(),
+    date.getMonth() + 1,
     date.getDate(),
     date.getFullYear(),
   ];
@@ -11,4 +11,4 @@ const [month, day, year] = [
 // console.log(date.toString());
 
 // 年月日を出力
-console.log(year + '年' + (month+1) + '月' + day + '日');
+console.log(year + '年' + month + '月' + day + '日');
